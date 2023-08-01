@@ -32,7 +32,7 @@ jobs:
       #Deploy Gh pages
       - name : Deploy to Pages
         uses : crazy-max/ghaction-github-pages@v3.1.0
-        with :
-          build-dir: dist/alfonsogarduno
+        with:
+          build_dir: dist/alfonsogarduno
         env: 
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
