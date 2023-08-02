@@ -30,7 +30,7 @@ jobs:
       - name : Build app bundle
         run : npm run build:prod
       # Route renaming
-      -name: Rename index for routing
+      - name: Rename index for routing
           run: mv dist/alfonsogarduno/index.html dist/alfonsogarduno/404.html
       #Deploy Gh pages
       - name : Deploy to Pages
